@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+@media(max-width: 599px) {
+    
+    header img {
+        width: 100%;
+        height: 100vh;
+    }
+
+    header img#hamburgao {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 30px;
+        right: 0;
+        left: 0;
+        right: 0;
+        width: 50px;
+        height: 45px;
+        border-radius: 50%;
+        backdrop-filter: blur(10px);
+    }
+
+    input#nav-menu {
+        display: none;
+    }
+
+    #label-nav-menu {
+        position: absolute;
+        margin: 0 auto;
+        top: 20px;
+        right: 0;
+        left: 0;
+        right: 0;
+        width: 60px;
+        height: 40px;
+    }
+
+    input#nav-menu:checked ~ nav {
+      
+    }
+
+    nav {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 90px;
+        right: 0;
+        left: 0;
+        right: 0;
+    }
+
+    nav ul li {
+        position: absolute;
+    }
+
+    nav ul li#inicio {
+        
+    }
+
+    nav ul li#ferramentas {
+        
+    }
+
+    nav ul li#telefone {
+        
+    }
+
+    nav ul li img {
+        width: 30px;
+        height: 30px;
+    }
+
+    nav ul li a {
+    
+    }
+
+
+
+    h1 {
+        position: absolute;
+        display: block;
+        margin: auto;
+        top: 200px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        font-size: 40px;
+        color: #fff;  
+    }
+
+
+}
